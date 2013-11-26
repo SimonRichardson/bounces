@@ -1,0 +1,26 @@
+{
+    "name": "trampoline",
+    "description": "Trampoline",
+    "author": "Simon Richardson <stickupkid@gmail.com> (https://github.com/SimonRichardson)",
+    "homepage": "https://github.com/SimonRichardson/trampoline",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SimonRichardson/trampoline.git"
+    },
+    "dependencies": {
+        "fantasy-helpers": "0.0.x"
+    },
+    "devDependencies": {
+        "grunt-cli": "0.1.9",
+        "grunt": "0.4.x",
+        "grunt-contrib-jshint": "0.6.x",
+        "grunt-contrib-nodeunit": "0.2.0"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "files": ["trampoline.js", "src/*.js"],
+    "main": "trampoline.js",
+    "version": "0.0.1"
+}
